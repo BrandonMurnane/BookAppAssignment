@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Assignment</string>
+
+    <string name="Welcome_TextView">Welcome to your Library</string>
+    <string name="Show_Button">List Books</string>
+    <string name="Add_Button">Add Books</string>
+
+
+    <string name="BookName_EditText">Book Name</string>
+    <string name="AuthName_EditText">Author Name</string>
+    <string name="SeriesName_EditText">Series Name</string>
+    <string name="Read_Radio">Read</string>
+    <string name="Reading_Radio">Reading</string>
+    <string name="Want_Radio">Want</string>
+    <string name="Submit_Button">Submit</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_add_book">AddBook</string>
+    <string name="title_activity_list_books">ListBooks</string>
+</resources>
