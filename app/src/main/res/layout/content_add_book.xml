@@ -53,26 +53,29 @@
         android:layout_below="@+id/SName_EditText"
         android:layout_alignStart="@+id/SName_EditText"
         android:layout_alignEnd="@+id/BookName_EditText"
-        android:layout_marginBottom="200dp">
+        android:layout_above="@+id/Submitbutton">
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Read_Radio"
             android:checked="true"
-            android:id="@+id/ReadradioButton" />
+            android:id="@+id/ReadradioButton"
+            android:layout_gravity="left" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Reading_Radio"
-            android:id="@+id/ReadingRadioButton" />
+            android:id="@+id/ReadingRadioButton"
+            android:layout_gravity="left" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Want_Radio"
-            android:id="@+id/WantRadioButton" />
+            android:id="@+id/WantRadioButton"
+            android:layout_gravity="left" />
 
     </RadioGroup>
 
@@ -82,8 +85,19 @@
         android:layout_height="wrap_content"
         android:text="@string/Submit_Button"
         android:id="@+id/Submitbutton"
-        android:layout_below="@+id/SName_EditText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="126dp" />
+        android:onClick="SubmitBook"
+        android:layout_marginBottom="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/BackButton" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BackB_Button"
+        android:id="@+id/BackButton"
+        android:onClick="BackButton"
+        android:layout_alignTop="@+id/Submitbutton"
+        android:layout_alignEnd="@+id/AuthName_EditText" />
 
 </RelativeLayout>
